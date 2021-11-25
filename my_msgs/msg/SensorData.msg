@@ -1,6 +1,3 @@
-bool ultra_sonic_1
-bool ultra_sonic_2
-bool ultra_sonic_3
-bool ultra_sonic_4
-bool ultra_sonic_5
-bool ultra_sonic_6
+float64 front
+float64 right
+float64 left
