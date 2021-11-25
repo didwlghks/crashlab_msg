@@ -12,6 +12,18 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+add message_files(
+  FILES
+  SensorData.msg
+  SignalData.msg
+  CameraData.msg
+)
+
+Generate_messages(
+  DEPENDENCIES
+  std_msgs
+)
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
