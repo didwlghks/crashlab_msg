@@ -1,2 +1,2 @@
-float64 x
-float64 size
+float64 p_x
+float64 p_size
